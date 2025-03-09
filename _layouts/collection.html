@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <ul>
+    {%- for site_page in site.pages -%}
+    {%- if site_page.tags contains page.series %}
+    <li><a class="page-link" href="{{ site_page.url | relative_url }}">{{ site_page.title | escape }}</a>
+      {%- if site_page.path contains "index.md" -%}
+      <ul>
+        {%- for child_site_page in site.pages -%}
+        {%- if child_site_page.tags contains site_page.series %}
+        <li><a class="page-link" href="{{ child_site_page.url | relative_url }}">{{ child_site_page.title | escape
+            }}</a></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+      {%- endif -%}
+    </li>
+    {%- endif %}
+    {%- endfor %}
+  </ul>
+</article>
