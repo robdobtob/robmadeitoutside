@@ -1,1 +1,5 @@
+# Jekyll site things
 _site
+
+# node things
+node_modules

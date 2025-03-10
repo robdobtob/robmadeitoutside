@@ -1,0 +1,18 @@
+{% comment %}
+  Manages the colour palates created for category tags
+  based on https://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
+
+  create an array of 'hue' values associated with each category that can then be accessed
+  with the `category_chip.html` inclde
+{% endcomment %}
+
+{%- assign golden_ratio_conjugate = 0.618033988749895 -%}
+{%- assign hue = 0.627 -%}
+{%- assign category_hues = '' | split: ',' -%}
+{%- for category in site.categories -%}
+  {% capture category_hue %}{{category[0]}},{{hue}}{% endcapture %}
+  {%- assign category_hues = category_hues | push: category_hue -%}
+  {%- assign hue = hue | plus: golden_ratio_conjugate | modulo: 1 -%}
+{%- endfor -%}
+
+{%- assign category_hues = category_hues | join: ',' -%}

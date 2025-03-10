@@ -1,3 +1,11 @@
 {
-    "editor.autoClosingComments": "always"
+    "editor.autoClosingComments": "always",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    },
+    "[liquid]": {
+        "editor.defaultFormatter": "sissel.shopify-liquid",
+        "editor.formatOnSave": true
+    }
 }
