@@ -30,16 +30,8 @@ instagram_username: robmadeitoutside
 plugins:
   - jekyll-feed
 
-include:
-  - tech
-  - projects
-  - adventures
-
 header_pages:
   - about.md
-  - tech/index.md
-  - projects/index.md
-  - adventures/index.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,4 @@
+{{=<% %>=}}
+  {% capture asset_dir %}/assets/{{page.dir | split: "/" | shift | join: "/"}}{{ page.name | remove: ".md" }}{% endcapture %}
+  <img title="{{ include.title }}" alt="{{ include.alt }}" loading="lazy" src="{{asset_dir}}/{{include.src}}" />
+  <em>{{include.caption}}</em>

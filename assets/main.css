@@ -3,7 +3,7 @@
  */
 :root {
   --color-primary: rgb(238, 82, 16);
-  --line-heigh-body: 1.9
+  --line-heigh-body: 1.4
 }
 
 /**
@@ -38,6 +38,22 @@ a:visited {
 }
 
 /**
+ * Image rendering
+ */
+ img {
+  max-width: 100%;
+  text-align: center;
+ }
+ img+em,
+ figcaption {
+   font-size: 1rem;
+   font-style: normal;
+   display: block;
+   text-align: center;
+ }
+
+
+/**
  *  classes for basic jekyll template
  */
 /**
@@ -52,7 +68,7 @@ a:visited {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 300;
   letter-spacing: -0.1rem;
   float: left;
@@ -61,7 +77,7 @@ a:visited {
 .site-nav {
   float: right;
   /* Set line height to match that of site-title based on its font size and lineheight */
-  line-height: calc(2*var(--line-heigh-body));
+  line-height: calc(2.2*var(--line-heigh-body));
 }
 
 .site-nav .nav-trigger {
