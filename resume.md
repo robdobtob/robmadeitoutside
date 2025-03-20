@@ -25,6 +25,11 @@ Rail Systems Engineer
  - AWS Solutions Architect (2021)
 
 # Key Achievements
+## Pollinate Volunteer
+2020 - Current
+Engaged with the [Pollinate Group](https://pollinategroup.org/) to develop a new customer sales management interface for marginalised women they empower as entrepreneurs. The solution was to build a dedicated mobile phone application catered for low literacy and low tech literacy users by leveraging clear imagery, large interactive components as well as provide text-to-voice across multiple languages for all components. Directly engaged with  stakeholders to gather application requirements, iterate on designs, enable rollout to users and presented usage analytics to the leadership team. To improve the application adoption we travelled to India to;
+* Work in person training the outreach/distribution teams so that they could effectively support the entrepreneurs.
+* Communicate directly with the entrepreneurs to gather user feedback as well as observe how they interact with the app to better understand behaviours.
 ## NASA SpaceApps Global Finalist 2019
 Global Finalist for the NASA SpaceApps Hackathon, where over a period of 24hrs we developed a cloud platform to identify remote/temporary communities from satellite images This was achieved using a retrained MaskRCNN model for identification and utilizing the ELK stack for processed data storage and visualization A major focus of our project eﬀort was identifying key areas of value that could be delivered within the short time frame, providing an initially targeted solution to a general problem allowing for a much wider scope once actual value was identified. You can find more details on our [submmission page here](https://2019.spaceappschallenge.org/challenges/living-our-world/curious-minds-come-helping-hands/teams/planet-captain/project).
 ## Honours Thesis 2018
