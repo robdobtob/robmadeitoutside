@@ -3,8 +3,6 @@ layout: post
 title:  "Aoraki Alpine Skills Course"
 categories:
   - Outside
-  - Tech
-  - Projects
 tags:
   - Mountaineering
   - 2025-NewZealand
