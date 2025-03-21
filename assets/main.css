@@ -126,6 +126,10 @@ a:visited {
   text-align: right;
 }
 
+.page-link {
+  margin-right: 5px;
+}
+
 /* Icon rendering */
 .svg-icon {
   width: 16px;
