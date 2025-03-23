@@ -1,0 +1,24 @@
+{% assign education = site.data.resume.education %}
+{% if education %}
+  <div class="education-container container-block">
+
+    <h2 class="container-block-title">
+      {{ education.title }}
+    </h2>
+
+    {% for graduation in education.info %}
+      <div class="item">
+        {% for degree in graduation.degree %}
+          <h4 class="degree">{{ degree }}</h4>
+        {% endfor %}
+        <h5 class="meta">{{ graduation.university }} - {{ graduation.time }}</h5>
+        {% if graduation.result %}
+          <h5 class="meta">{{ graduation.result }}</h5>
+        {% endif %}
+      </div>
+      <!-- //item -->
+    {% endfor %}
+
+  </div>
+  <!-- //education-container -->
+{% endif %}

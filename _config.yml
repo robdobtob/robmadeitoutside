@@ -33,6 +33,7 @@ plugins:
 header_pages:
   - about.md
   - resume.md
+  - resume2.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -42,8 +43,9 @@ header_pages:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
+exclude:
+  - jekyll-cv/
+  - resume/
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile

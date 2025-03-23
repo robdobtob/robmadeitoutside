@@ -11,6 +11,7 @@
  * source: http://bettermotherfuckingwebsite.com/
  */
 body {
+  font-family: "Roboto", sans-serif;
   margin: 1rem auto;
   max-width: 650px;
   line-height: var(--line-height-body);
