@@ -54,6 +54,10 @@ a:visited {
    text-align: center;
  }
 
+ul {
+  padding-left: 1.5rem;
+}
+
 
 /**
  *  classes for basic jekyll template
@@ -103,7 +107,7 @@ a:visited {
   margin-bottom: 15px;
 }
 
-.contact-list,
+.footer-contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;

@@ -3,8 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
-  padding: 30px;
+  max-width: 1000px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,7 +32,7 @@ p {
   line-height: 1.5;
 }
 
-.wrapper {
+.resume-wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
@@ -83,7 +82,7 @@ p {
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-  .contact-list {
+  .resume-contact-list {
     .fas,
     .fab,
     .far {
@@ -102,7 +101,7 @@ p {
     padding-left: 0;
   }
   .container-block {
-    padding: 30px;
+    padding: 20px;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -294,13 +293,4 @@ p {
 
 .footer {
   padding-top: 30px;
-  .copyright {
-    line-height: 1.6;
-    color: $text-color-secondary;
-    font-size: 13px;
-  }
-
-  .fa-heart {
-    color: $heart;
-  }
 }

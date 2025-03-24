@@ -1,30 +1,32 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+---
+layout: default
+---
+{% comment %} <!DOCTYPE html>
+            <html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {% include resume-head.liquid %}
+              {% include resume-head.liquid %}
 
-    <body>
+      <body> {% endcomment %}
 
-    {% comment %} {%- include header.html -%} {% endcomment %}
+{% comment %} {%- include header.html -%} {% endcomment %}
+<div class="resume-wrapper">
+  {% include resume-sidebar.liquid %}
+  <div class="main-wrapper">
+    {% include resume-career-profile.liquid %}
 
-    <main class="wrapper" aria-label="Content">
-      {% include resume-sidebar.liquid %}
-      <div class="main-wrapper">
-        {% include resume-career-profile.liquid %}
+    {% include resume-experiences.liquid %}
 
-        {% include resume-experiences.liquid %}
+    {% include resume-certifications.liquid %}
 
-        {% include resume-certifications.liquid %}
+    {% include resume-achievements.liquid %}
 
-        {% include resume-achievements.liquid %}
+    {% include resume-projects.liquid %}
 
-        {% include resume-projects.liquid %}
+    {% include resume-publications.liquid %}
 
-        {% include resume-publications.liquid %}
+    {% include resume-skills.liquid %}
+  </div>
+</div>
+{% comment %} </body>
 
-        {% include resume-skills.liquid %}
-      </div>
-    </main>
-  </body>
-
-</html>
+</html> {% endcomment %}
