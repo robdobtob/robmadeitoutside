@@ -183,22 +183,11 @@ achievements:
 # skills:
 #   title: Skills &amp; Proficiency
 
-#   toolset:
-#   - name: Python & Django
-#     level: 98%
+# - 6 years JavaScript/Typescript experience for FrontEnd and BackEnd.
+# - 4 years Java SpringBoot framework.
+# - React Native (Android) developer utilizing Redux state management and enabling offline support.
+# - AWS, CDK, Docker, CICD (Gitlab, Azure), Salesforce, Splunk, ELK
 
-#   - name: Javascript & jQuery
-#     level: 98%
-
-#   - name: Angular
-#     level: 98%
-
-#   - name: HTML5 & CSS
-#     level: 95%
-
-#   - name: Ruby on Rails
-#     level: 85%
-
-#   - name: Sketch & Photoshop
-#     level: 60%
-
+footer: |
+  Based on cv template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  

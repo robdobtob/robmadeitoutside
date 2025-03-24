@@ -176,7 +176,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
@@ -199,7 +199,7 @@ p {
   .cert-title,
   .recommendation-person {
     color: $text-color;
-    font-size: 16px;
+    font-size: 1.2rem;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -291,6 +291,6 @@ p {
   }
 }
 
-.footer {
-  padding-top: 30px;
+.resume-footer {
+  text-align: center;
 }
