@@ -3,7 +3,7 @@
  */
 :root {
   --color-primary: rgb(238, 82, 16);
-  --line-height-body: 1.4
+  --line-height-body: 1.4;
 }
 
 /**
@@ -11,12 +11,14 @@
  * source: http://bettermotherfuckingwebsite.com/
  */
 body {
-  margin: 1rem auto;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto 1rem auto;
+  /* margin: 1rem auto; */
   max-width: 650px;
   line-height: var(--line-height-body);
   font-size: 1rem;
   color: #444;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 h1,
@@ -24,6 +26,10 @@ h2,
 h3 {
   margin: 1rem auto 0.2rem auto;
   line-height: 1.2;
+}
+
+p {
+  margin-top: 0px;
 }
 
 /**
@@ -35,24 +41,28 @@ a {
 }
 
 a:visited {
-  color: rgb(242, 116, 63)
+  color: rgb(242, 116, 63);
 }
 
 /**
  * Image rendering
  */
- img {
+img {
   max-width: 100%;
   text-align: center;
- }
- img+em,
- figcaption {
-   font-size: 1rem;
-   font-style: normal;
-   display: block;
-   text-align: center;
- }
+}
 
+img+em,
+figcaption {
+  font-size: 1rem;
+  font-style: normal;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
 
 /**
  *  classes for basic jekyll template
@@ -65,7 +75,8 @@ a:visited {
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
   position: relative;
-  /* display: flex; */
+  max-width: 650px;
+  margin: 1rem auto 0 auto;
 }
 
 .site-title {
@@ -78,7 +89,10 @@ a:visited {
 .site-nav {
   float: right;
   /* Set line height to match that of site-title based on its font size and lineheight */
-  line-height: calc(2.2*var(--line-height-body));
+  line-height: calc(2.2 * var(--line-height-body));
+}
+.nav-separator {
+  margin-right: 5px;
 }
 
 .site-nav .nav-trigger {
@@ -97,33 +111,34 @@ a:visited {
   padding: 30px 0;
 }
 
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
   margin-left: -15px;
+  display: flex;
+  justify-content: center;
 }
+
+.footer-contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 
 .footer-col {
   float: left;
   margin-bottom: 15px;
-  padding-left: 15px;
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - 30px / 2);
+  padding: 0 15px;
 }
 
 .footer-col-1 {
   text-align: right;
+}
+
+.page-link {
+  margin-right: 5px;
 }
 
 /* Icon rendering */
@@ -144,10 +159,11 @@ a:visited {
   border-radius: 1rem;
   cursor: pointer;
 
-  & > a {
+  &>a {
     color: #444;
   }
 }
-.post-meta-category:hover{
+
+.post-meta-category:hover {
   filter: brightness(85%);
 }

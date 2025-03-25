@@ -1,0 +1,54 @@
+{% assign experiences = site.data.resume.experiences %}
+{% if experiences %}
+  <section class="section experiences-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ experiences.title }}
+    </h2>
+
+    {% for experience in experiences.info %}
+      {% unless experience.hidden %}
+        <div class="item">
+
+          <div class="meta">
+
+            <div class="upper-row">
+              <h3 class="company-title">{{ experience.company }}</h3>
+            </div>
+
+            {% if experience.details %}
+              <div class="details">
+                {{ experience.details | markdownify }}
+              </div>
+              <!-- // top level company details -->
+            {% endif %}
+
+          </div>
+          <!-- //meta -->
+
+          {% for role in experience.roles %}
+            <div class="upper-row">
+              <div class="job-title">{{ role.title }}</div>
+              <div class="time">{{ role.time }}</div>
+            </div>
+
+            {% if role.details %}
+              <div class="details">
+                {{ role.details | markdownify }}
+              </div>
+              <!-- //details -->
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
+        <!-- //item -->
+      {% endunless %}
+    {% endfor %}
+
+  </section>
+  <!-- //section -->
+{% endif %}

@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
+  {% if page.layout == "resume" %}
+    {%- include resume-head.liquid -%}
+  {% else %}
+    {%- include head.html -%}
+  {% endif %}
 
-{%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-<body>
+    {%- include footer.html -%}
 
-  {%- include header.html -%}
-
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </main>
-
-  {%- include footer.html -%}
-
-</body>
+  </body>
 
 </html>

@@ -1,0 +1,47 @@
+{% assign achievements = site.data.resume.achievements %}
+{% if achievements %}
+  <section class="section achievements-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ achievements.title }}
+    </h2>
+
+    {% for achievement in achievements.info %}
+      {% unless achievement.hidden %}
+        <div class="item">
+
+          <div class="meta">
+
+            {% if achievement.subtitle %}
+              <h3 class="company-title">{{ achievement.title }}</h3>
+              <div class="upper-row">
+                <div class="job-title">{{ achievement.subtitle }}</div>
+                <div class="time">{{ achievement.time }}</div>
+              </div>
+            {% else %}
+              <div class="upper-row">
+                <h3 class="company-title">{{ achievement.title }}</h3>
+                <div class="time">{{ achievement.time }}</div>
+              </div>
+            {% endif %}
+
+          <!-- // top level achievement details -->
+
+          </div>
+          <!-- //meta -->
+
+          <div class="details">
+            {{ achievement.details | markdownify }}
+          </div>
+
+        </div>
+        <!-- //item -->
+      {% endunless %}
+    {% endfor %}
+
+  </section>
+  <!-- //section -->
+{% endif %}
