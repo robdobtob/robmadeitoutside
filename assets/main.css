@@ -44,6 +44,10 @@ a:visited {
   color: rgb(242, 116, 63);
 }
 
+ul {
+  padding-left: 1.5rem;
+}
+
 /**
  * Image rendering
  */
@@ -53,6 +57,7 @@ img {
 }
 
 img+em,
+video+em,
 figcaption {
   font-size: 1rem;
   font-style: normal;
@@ -60,17 +65,24 @@ figcaption {
   text-align: center;
 }
 
-ul {
-  padding-left: 1.5rem;
-}
-
 .image-block {
   display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .image-wrapper {
   margin: 0 1rem;
+  max-width: 45%;
 }
+
+.image-wrapper img,
+.image-wrapper video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 
 /**

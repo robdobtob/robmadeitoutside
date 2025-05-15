@@ -150,6 +150,7 @@ achievements:
       time: 2019
       details: |
         Global Finalist out of 30k participants at the NASA SpaceApps Hackathon for our solution to identify remote/temporary communities from satellite images.  This was achieved using a retrained MaskRCNN model for identification and utilizing the ELK stack for processed data storage and visualization.  A major focus of our project effort was identifying key areas of value that could be delivered within the short time frame, providing an initially targeted solution to a general problem allowing for a much wider scope once actual value was identified.
+      # https://2019.spaceappschallenge.org/challenges/living-our-world/curious-minds-come-helping-hands/teams/planet-captain/project
 
     - title: Honours Thesis
       time: 2018
