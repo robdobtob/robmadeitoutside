@@ -8,9 +8,9 @@
   <div class="image-block">
     {%- for image in titles -%}
     <div class="image-wrapper">
-      <img title="{{ titles[forloop.index0] }}" alt="{{ alts[forloop.index0] }}" loading="lazy"
-        src="{{asset_dir}}/{{ sources[forloop.index0] }}" />
-      <em>{{ captions[forloop.index0] }}</em>
+      <img title="{{ titles[forloop.index0] | strip }}" alt="{{ alts[forloop.index0] | strip }}" loading="lazy"
+        src="{{asset_dir}}/{{ sources[forloop.index0] | strip }}" />
+      <em>{{ captions[forloop.index0] | strip }}</em>
     </div>
     {%- endfor -%}
   </div>
