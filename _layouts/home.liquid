@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% include category_setup.liquid %}
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -21,9 +20,6 @@ layout: default
           </h3>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta-date">{{ post.date | date: date_format }}</span>
-          {%- for category in post.categories -%}
-            {% include category_chip.liquid category=category %}
-          {%- endfor -%}
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
