@@ -1,6 +1,0 @@
-{% assign category_hue = category_hues | split: include.category | last | split: "," | slice: 1, 1 %}
-<inline class="post-meta-category body" style="background: hsl({{category_hue}}turn 83% 71%)">
-  <a href="https://google.com">
-    {{ include.category }}
-  </a>
-</inline>

@@ -172,20 +172,3 @@ figcaption {
   padding-right: 5px;
   vertical-align: text-top;
 }
-
-/* post meta */
-.post-meta-category {
-  text-align: center;
-  padding: 0.2rem 0.4rem;
-  margin: 0 0.1rem;
-  border-radius: 1rem;
-  cursor: pointer;
-
-  &>a {
-    color: #444;
-  }
-}
-
-.post-meta-category:hover {
-  filter: brightness(85%);
-}
