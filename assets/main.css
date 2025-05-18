@@ -73,7 +73,8 @@ figcaption {
 
 .image-wrapper {
   margin: 0 1rem;
-  max-width: 45%;
+  min-width: 45%;
+  max-width: 300px;
 }
 
 .image-wrapper img,
@@ -188,6 +189,10 @@ figcaption {
 }
 
 /* Book Reviews */
+.books-summary {
+  margin-top: 1rem;
+}
+
 .book-review:not(:last-child) {
   border-bottom: 1px solid #e8e8e8;
 }
