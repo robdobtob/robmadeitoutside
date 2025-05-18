@@ -31,8 +31,9 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about.md
+  - books.md
   - resume.md
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,12 +46,3 @@ header_pages:
 exclude:
   - jekyll-cv/
   - resume/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
