@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="books-container">
+  <div class="books-summary">{{content}}</div>
+  {% for book in site.data.books %}
+  <article class="book-review">
+    <div class="book-header">
+      <div class="book-title-section">
+        <h2>{{ book.title }}</h2>
+        {% if book.rating %}
+        <div class="star-rating" title="{{ book.rating }}/5">
+          {% assign rating = book.rating | times: 1 %}
+          {% for i in (1..5) %}
+          {% if i <= rating %} <span class="star filled">★</span>
+            {% else %}
+            <span class="star">☆</span>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="book-meta">
+      <div class="left-content">
+        <span class="author">{{ book.author }}</span>
+        {% if book.genre.size > 0 %}
+        <div class="book-tags">
+          {% for genre in book.genre %}
+          <span class="tag">{{ genre }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if book.date_read %}
+      <span class="date">{{ book.date_read }}</span>
+      {% endif %}
+    </div>
+
+
+
+    {% if book.review %}
+    <div class="review-content">
+      {{ book.review | markdownify }}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

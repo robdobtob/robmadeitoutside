@@ -172,3 +172,104 @@ figcaption {
   padding-right: 5px;
   vertical-align: text-top;
 }
+
+/* Book Reviews */
+.book-review:not(:last-child) {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.book-title-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.book-date {
+  color: #666;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.star-rating {
+  display: inline-flex;
+  gap: 2px;
+  margin: 0.6rem auto 0.2rem auto;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.2em;
+}
+
+.star.filled {
+  color: var(--color-primary);
+}
+
+.book-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.book-meta .left-content {
+  display: flex;
+  align-items: center;
+}
+
+.book-meta .date {
+  white-space: nowrap;
+}
+
+.book-meta span {
+  margin-right: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.review-content {
+
+  /* make up for reduced bottom margin from paragraphs */
+  margin-bottom: 0.8rem; 
+
+  p {
+    margin-bottom: 0.2rem;
+  }
+
+  blockquote {
+    background-color: #ededed;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
+    p {
+      margin: 0;
+    }
+
+    p::before {
+      content: "\201C";
+    }
+
+    p::after {
+      content: "\201D";
+    }
+
+  }
+}
