@@ -4,7 +4,7 @@
 :root {
   --color-primary: rgb(238, 82, 16);
   --line-height-body: 1.4;
-  --responsive-small: 768px
+  --responsive-small: 768px;
   --responsive-medium: 992px;
 }
 
@@ -94,13 +94,17 @@ figcaption {
  */
  .site-header {
   border-bottom: 1px solid #e8e8e8;
-  position: relative;
   max-width: 650px;
   margin: 1rem auto 0 auto;
   padding-bottom: 0.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 0.5em 0;
 }
 
 .site-title {
@@ -140,9 +144,6 @@ figcaption {
 
 /* Responsive navigation styles */
 @media screen and (max-width: 600px) {
-  .site-header {
-    position: relative;
-  }
   
   .site-nav {
     position: relative;
@@ -160,9 +161,8 @@ figcaption {
   
   .site-header .menu-icon {
     display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;
+    margin: 0.5rem;
     width: 18px;
     height: 15px;
     cursor: pointer;
@@ -176,23 +176,21 @@ figcaption {
   .site-nav {
     position: absolute;
     top: 100%;
-    left: -10px;
-    right: -10px;
+    left: 0px;
+    right: 0px;
     background: white;
     border: 1px solid #e8e8e8;
-    border-top: none;
-    padding: 0.5rem 0;
     display: none;
     z-index: 998;
   }
   
   .site-nav a {
     display: block;
-    padding: 0.5rem 1rem;
-    border-right: none !important;
-    margin-right: 0 !important;
+    padding: 0.5rem 1rem !important;
+    border-right: unset !important;
     border-bottom: 1px solid #f0f0f0;
   }
+
   
   .site-nav a:last-child {
     border-bottom: none;
