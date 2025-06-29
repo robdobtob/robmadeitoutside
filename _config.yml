@@ -46,3 +46,4 @@ header_pages:
 exclude:
   - jekyll-cv/
   - resume/
+  - scripts/
