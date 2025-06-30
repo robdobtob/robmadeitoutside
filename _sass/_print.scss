@@ -5,7 +5,7 @@
 
    body {
       padding: 0 !important;
-      font-size: 12pt;
+      font-size: 11pt;
    }
 
    img.avatar {
@@ -15,6 +15,7 @@
 
    .resume-wrapper {
       max-width: unset !important;
+      display: unset;
    }
 
    .main-wrapper {
@@ -22,9 +23,27 @@
       padding: 30px;
    }
 
+   .wrapper {
+      display: block;
+   }
+
+   // .details-container {
+   //    padding: 0 0.5rem 0 0.5rem;
+   // }
+
    .sidebar-wrapper {
       position: static;
       -webkit-print-color-adjust: exact;
+
+      width: inherit;
+
+      .interests-container {
+         display: none;
+      }
+
+      .education-container {
+         max-width: 50%;
+      }
    }
 
    .remove-container.container-block {
