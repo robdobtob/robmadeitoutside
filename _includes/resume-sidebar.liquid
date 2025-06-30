@@ -1,27 +1,35 @@
 {% assign sidebar = site.data.resume.sidebar %}
-<div class="sidebar-wrapper">
+  <div class="sidebar-wrapper">
 
   <div class="profile-container">
 
     {% if sidebar.avatar %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      <img
+        class="avatar"
+        src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}"
+        alt="profile picture" />
     {% endif %}
 
     {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+      <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+      <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+  </div>
+  <!-- //profile-container -->
 
-  {% include resume-contact.liquid %}
+  <div class="details-container">
+    {% include resume-contact.liquid %}
 
-  {% include resume-education.liquid %}
+    {% include resume-education.liquid %}
 
-  {% include resume-language.liquid %}
-  {% include resume-interests.liquid %}
+    {% include resume-language.liquid %}
+    {% include resume-interests.liquid %}
 
-</div><!--//sidebar-wrapper-->
+  </div>
+
+</div>
+<!-- //sidebar-wrapper -->
