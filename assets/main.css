@@ -144,7 +144,16 @@ figcaption {
 @media screen and (max-width: 600px) {
   
   .site-nav {
-    position: relative;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    background: white;
+    border: 1px solid #e8e8e8;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    z-index: 998;
   }
   
   .site-header .nav-trigger {
@@ -171,17 +180,6 @@ figcaption {
     fill: #424242;
   }
   
-  .site-nav {
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    right: 0px;
-    background: white;
-    border: 1px solid #e8e8e8;
-    display: none;
-    z-index: 998;
-  }
-  
   .site-nav a {
     display: block;
     padding: 0.5rem 1rem !important;
@@ -189,7 +187,6 @@ figcaption {
     border-bottom: 1px solid #f0f0f0;
   }
 
-  
   .site-nav a:last-child {
     border-bottom: none;
   }
@@ -200,7 +197,8 @@ figcaption {
   
   /* Show menu when checkbox is checked */
   .site-header .nav-trigger:checked ~ .site-nav {
-    display: block;
+    max-height: 7.35rem; /* Large enough for your menu */
+    transition: max-height 0.75s ease-in-out;
   }
 }
 
