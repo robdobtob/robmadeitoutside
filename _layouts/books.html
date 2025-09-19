@@ -4,23 +4,22 @@ layout: default
 
 <div class="books-container">
   <div class="books-summary">{{content}}</div>
+  <div class="divider"></div>
   {% for book in site.data.books %}
   <article class="book-review">
-    <div class="book-header">
-      <div class="book-title-section">
-        <h2>{{ book.title }}</h2>
-        {% if book.rating %}
-        <div class="star-rating" title="{{ book.rating }}/5">
-          {% assign rating = book.rating | times: 1 %}
-          {% for i in (1..5) %}
-          {% if i <= rating %} <span class="star filled">★</span>
-            {% else %}
-            <span class="star">☆</span>
-            {% endif %}
-            {% endfor %}
-        </div>
-        {% endif %}
+    <div class="book-title-section">
+      <h2 class="book-title">{{ book.title }}</h2>
+      {% if book.rating %}
+      <div class="star-rating" title="{{ book.rating }}/5">
+        {% assign rating = book.rating | times: 1 %}
+        {% for i in (1..5) %}
+        {% if i <= rating %} <span class="star filled">★</span>
+          {% else %}
+          <span class="star">☆</span>
+          {% endif %}
+          {% endfor %}
       </div>
+      {% endif %}
     </div>
 
     <div class="book-meta">

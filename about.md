@@ -12,8 +12,8 @@ I aspire to keep things plain and simple, fighting a system's entropic progressi
 
 As for the 'about me',
 
-- I enjoy bashing my head against build issues, developing tooling/frameworks and spending way too much time trying to automate something in my workflow that doesn't justify the effort.
 - I live for exploring the great outdoors, nothing makes me feel more alive than scrambling up the side of a mountain in extreme weather conditions or spending hours skinning up a hill for the 5 minutes of euphoria skiing back down afterwards. 
 - I love to create. Sometimes software projects scratch this itch but usually I've got some form of project that involves physically tangible outcomes like wood working, knitting or sewing. 
+- I enjoy bashing my head against build issues, developing tooling/frameworks and spending way too much time trying to automate something in my workflow that doesn't justify the effort, in my free time of course.
 
 
