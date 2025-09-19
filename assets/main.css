@@ -67,6 +67,12 @@ figcaption {
   text-align: center;
 }
 
+.divider {
+  border-bottom: 1px solid #e8e8e8;
+  margin: 0;
+  width: 100%;
+}
+
 .image-block {
   display: flex;
   justify-content: center;
@@ -92,7 +98,7 @@ figcaption {
 /**
  * Site header
  */
- .site-header {
+.site-header {
   border-bottom: 1px solid #e8e8e8;
   margin: 1rem auto 0 auto;
   padding: 0.5em;
@@ -114,6 +120,7 @@ figcaption {
 
 .site-title a {
   display: flex;
+  align-items: center;
 }
 
 .site-title .site-logo {
@@ -142,7 +149,7 @@ figcaption {
 
 /* Responsive navigation styles */
 @media screen and (max-width: 600px) {
-  
+
   .site-nav {
     position: absolute;
     top: 100%;
@@ -155,7 +162,7 @@ figcaption {
     transition: max-height 0.5s ease-in-out;
     z-index: 998;
   }
-  
+
   .site-header .nav-trigger {
     display: block;
     position: absolute;
@@ -165,7 +172,7 @@ figcaption {
     opacity: 0;
     cursor: pointer;
   }
-  
+
   .site-header .menu-icon {
     display: block;
     position: relative;
@@ -175,11 +182,11 @@ figcaption {
     cursor: pointer;
     z-index: 999;
   }
-  
+
   .site-header .menu-icon svg {
     fill: #424242;
   }
-  
+
   .site-nav a {
     display: block;
     padding: 0.5rem 1rem !important;
@@ -190,14 +197,15 @@ figcaption {
   .site-nav a:last-child {
     border-bottom: none;
   }
-  
+
   .site-nav a:hover {
     background-color: #f8f8f8;
   }
-  
+
   /* Show menu when checkbox is checked */
-  .site-header .nav-trigger:checked ~ .site-nav {
-    max-height: 7.35rem; /* Large enough for your menu */
+  .site-header .nav-trigger:checked~.site-nav {
+    max-height: 7.35rem;
+    /* Large enough for your menu */
     transition: max-height 0.75s ease-in-out;
   }
 }
@@ -266,16 +274,16 @@ figcaption {
   border-bottom: 1px solid #e8e8e8;
 }
 
-.book-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .book-title-section {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.book-title {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .book-date {
@@ -287,7 +295,6 @@ figcaption {
 .star-rating {
   display: inline-flex;
   gap: 2px;
-  margin: 0.6rem auto 0.2rem auto;
 }
 
 .star {
@@ -307,35 +314,36 @@ figcaption {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-}
 
-.book-meta .left-content {
-  display: flex;
-  align-items: center;
-}
+  .left-content {
+    display: flex;
+    align-items: center;
 
-.book-meta .date {
-  white-space: nowrap;
-}
+    span:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
 
-.book-meta span {
-  margin-right: 1rem;
-}
+  .date {
+    white-space: nowrap;
+  }
 
-.tag {
-  display: inline-block;
-  background: #f0f0f0;
-  padding: 0.2em 0.6em;
-  border-radius: 3px;
-  font-size: 0.8em;
-  margin-right: 0.5rem;
-  color: #666;
+
+  .tag {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+    color: #666;
+  }
 }
 
 .review-content {
 
   /* make up for reduced bottom margin from paragraphs */
-  margin-bottom: 0.8rem; 
+  margin-bottom: 0.8rem;
 
   p {
     margin-bottom: 0.2rem;
