@@ -6,7 +6,7 @@
   {%- assign sources = include.src | split: ";" -%}
   {%- assign captions = include.caption | split: ";" -%}
   <div class="image-block">
-    {%- for image in titles -%}
+    {%- for image in sources -%}
     <div class="image-wrapper">
       <img title="{{ titles[forloop.index0] | strip }}" alt="{{ alts[forloop.index0] | strip }}" loading="lazy"
         src="{{asset_dir}}/{{ sources[forloop.index0] | strip }}" />
