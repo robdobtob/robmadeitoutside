@@ -76,6 +76,7 @@ figcaption {
 .image-block {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -90,6 +91,12 @@ figcaption {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .image-block {
+    flex-direction: column;
+  }
 }
 
 /**
