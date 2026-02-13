@@ -17,11 +17,11 @@ With the only knowledge about the destination being that <q>it’s like Yosemite
 
 The journey down into the valley is a bit of a slog through the forest. It was a maze of interwoven paths worn super deep into the mud by cowboys on horses. We never figured out exactly what the cowboys were lugging around but they looked pretty schmick riding past in their woollen frocks, hats and cute doggo companions.
 
-{% include img.html src="cowboys.png" loading="lazy" alt="Cowboys of Cochamo" caption="Cowboys of Cochamo" title="Would love to be able to pull of the look!" %}
+{% include img.html src="cowboys.png" loading="lazy" alt="Cowboys of Cochamo" caption="Cowboys of Cochamo" title="Would love to be able to pull off the look!" %}
 
 Every now and then we broke out of the forest to cross a side stream and got our first few glimpses of the massive granite cliffs that were going to soon surround us. It was, all in all, a very unassuming approach for the wonders we were about to see.
 
-The arrival into camp La Junta finally gave us a proper view of all the granite peaks. provided a grand spectacle as we were able to fully comprehend just how many granite peaks were surrounding the valley. That combined with the beautiful open campground and horses scattered about, we were pretty excited about our choice of adventure. 
+The arrival into camp La Junta finally gave us a proper view of all the granite peaks. provided a grand spectacle as we were able to fully comprehend just how many granite peaks were surrounding the valley. That combined with the beautiful open camp ground and horses scattered about, we were pretty excited about our choice of adventure.
 
 {% include img.html src="campsite_horses.png" loading="lazy" alt="Views from the campsite" caption="Views from the campsite" title="Nothing like the sound of horses to keep you up at night." %}
 
@@ -34,7 +34,6 @@ Unfortunately the sunglasses were never seen again. The thick mud and infinite c
 After a nice long sleep in and a relaxed breakfast we get ready to head off and explore the surrounding granite cliffs. We talked to the absolute chiller of a dude at the campsite about extending the route to La Laguna up past the lake, along the ridge and to Cerro Bella Vista. His only word of warning for starting our 10 hour day at 10:30 was <q>along the ridge, try to walk on the rocks and be very careful of the little plants, they are delicate</q>.
 
 {% include img.html src="view-from-tent.png" alt="Not a bad view to wake up to!" caption="Not a bad view to wake up to!" title="Don't worry, there are more photos of this mountain to come still!" %}
-
 
 The first obstacle of the day was using a little gondola to get across the river. Kris went first and gracefully made it over the other side. My journey was not quite so smooth. I wasn’t able to hold the cart still while hopping on so swung out to the side and got caught on a tree. A couple of not so gentle nudges sent me soaring off over to the other side of the river. Once there, I tried to pull myself a little further up the river bank and the next thing I knew I was falling arse over tit and eating sand. Thankfully Kris got the whole dismount on video for everyone to enjoy!
 
@@ -77,7 +76,7 @@ We don’t sit around too long as we’ve already hit our turn around time and c
 
 Once down off the ridge, so begins the next 5 hour descent back down the 1600m in elevation and into madness. Time was not on our side, with both of us having bad knees past our age, and well aware that rain and darkness are chasing us down to camp. We do of course make a quick pit stop for a skinny dip in the Laguna!
 
-As night falls, we put off donning our head torches for a bit longer. Without a word, this unanimously transitions to *let’s not use our head torches at all if we can!* This was heaps of fun and fairly easy for the most part. One really cool aspect of it was the freshly fallen leaves being extremely reflective of light and almost shining a path for us to follow. With only a few small mishaps we finally reached a point where it was way to dark that we begrudgingly donned our head torches. Turns out this was 3 minutes away from the final river crossing signifying the end of a long but rewarding day! Finally back at camp, we head to the hut to cook up dinner and reward ourselves with hot choccy and dunked Oreos while sitting by the fire. After all this, we find out our chill camp attendant bursts in worried about our safe return.
+As night falls, we put off donning our head torches for a bit longer. Without a word, this unanimously transitions to _let’s not use our head torches at all if we can!_ This was heaps of fun and fairly easy for the most part. One really cool aspect of it was the freshly fallen leaves being extremely reflective of light and almost shining a path for us to follow. With only a few small mishaps we finally reached a point where it was way to dark that we begrudgingly donned our head torches. Turns out this was 3 minutes away from the final river crossing signifying the end of a long but rewarding day! Finally back at camp, we head to the hut to cook up dinner and reward ourselves with hot choccy and dunked Oreos while sitting by the fire. After all this, we find out our chill camp attendant bursts in worried about our safe return.
 
 {% include img.html src="forest-bridge.png" alt="Beautiful Patagonian forest." title="Beautiful Patagonian forest." caption="Beautiful Patagonian forest." %}
 
