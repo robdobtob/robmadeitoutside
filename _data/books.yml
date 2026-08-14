@@ -1,113 +1,118 @@
+- title: Algorithms to live by
+  author: ''
+  date_read: '2026-07-16'
+  review: ''
+  ideas: []
+  genre: []
 - title: Abaddon's Gate
   author: James Corey
   date_read: '2026-02-11'
-  rating: 5
   review: The various threads of story line were all woven together so beautifully creating cliff hangers at every turn. The plot shines a harsh light on not considering the intent of another's action and the tendency of escalation and isolation between parties. I also really liked the lens applied to religion and the ability to interpret it for selfish or a greater purpose.
   ideas: null
   genre:
   - Sci-Fi
+  rating: 5
 - title: Caliban's War
   author: James Corey
   date_read: '2026-02-07'
-  rating: 3
   review: An interesting exploration on the working of politics and the power plays that occur within it.
   ideas: null
   genre:
   - Sci-Fi
+  rating: 3
 - title: Leviathan Wakes
   author: James Corey
   date_read: '2026-02-03'
-  rating: 5
   review: A gripping murder mystery sci-fi blend exploring the consequences of truth and transparency with incomplete information expressed through the conflict between Miller and Holden. Very excited to see where the world building goes from here.
   ideas: null
   genre:
   - Sci-Fi
+  rating: 5
 - title: Broken Money
   author: Lyn Alden
   date_read: '2025-12-12'
-  rating: 5
   review: "Broken money covers an extremely broad range of economic topics, building up foundations and taking you on a journey through the evolution of the financial system we have today, highlighting all its failings along the way. \nMy only concern is that this book has made me more anti-institutional than I already was, outlining how the structures of the fiscal system promote and enable to extraction of wealth and power to the few. \nCryptocurrency is proposed as a way to address key issues ranging from artificial monetary inflation which perpetuates wealth inequality, authoritarian government rule and promote financial inclusion, all things that impact those in both developing and developed nations. While I believe crypto can solve a lot of these problems, I am torn between overreaching government censorship and my want to trust my government for important financial controls to prevent fraud, embezzlement and terrorism financing.  \nOverall a must read to learn more about the financial system, albeit it comes from a very critical lens so bring your own tin foil hat or I’ll have one ready for you when you finish the book."
   ideas:
   - Crypto
   - Politics
   genre:
   - Economics
+  rating: 5
 - title: Prisoners of Geography
   author: Tim Marshall
   date_read: '2025-06-24'
-  rating: 5
   review: While there are so many different factors that influence the state of a nation, Prisoners of Geography is able to attribute a substantial number of these to their geography. This book has deepened my understanding on geopolitical influences, outlining implications across past, present and future.
   ideas:
   - Politics
   genre:
   - Non-Fiction
+  rating: 5
 - title: Consider Phlebas
   author: Ian M Banks
   date_read: '2025-06-07'
-  rating: 4
   review: Surprisingly engaging after a bit of a slow start with some insightful remarks against religion, politics, war and purpose. There is a lot more to this world to explore and understand. Not quite the 'AI overlords' that I was expecting based on all the Elon references.
   ideas:
   - Politics
   genre:
   - Sci-Fi
+  rating: 4
 - title: How I learned to understand the world
   author: Hans Rosling
   date_read: '2025-05-28'
-  rating: 5
   review: A heart moving story of an incredible human being, a humble man whose curiosity and determination has changed the world. Always be eager to learn from others, question your own views and biases, and strive to make the world a better place.
   ideas: null
   genre: null
+  rating: 5
 - title: Wind and Truth
   author: Brandon Sanderson
   date_read: '2025-05-14'
-  rating: 5
   review: So so good. I love how much weight is put on the mental health struggles that the protagonists (and antagonists) experience as they grow and develop as characters. This adds so much more to their journeys and the already incredibly built world and story arcs.
   ideas:
   - Mental Health
   - Purpose
   genre:
   - Fantasy
+  rating: 5
 - title: Ethics of the Real World
   author: Peter Singer
   date_read: '2025-05-10'
-  rating: 4
   review: A wide range of interesting essays. I'm enjoying and appreciating philosophy debates more and more.
   ideas:
   - Philosophy
   genre:
   - Non-Fiction
+  rating: 4
 - title: Kafka by the Shore
   author: Haruki Murakami
   date_read: '2025-04-06'
-  rating: 3
   review: An extremely whack book, but an interesting read due to beautiful way of expressing philosophical approaches to life. The naivety presented of Nakata provides a lovely insight into the purity of simplicity as well as the vast depth of understanding that can be achieved within it. I really liked how Murakami blended in a divine appreciation for art and music, initially subtle but gradually placing more and more emphasis on the vast world of introspection, connection and mutual understanding that can be made through it.
   ideas: null
   genre:
   - Fiction
+  rating: 3
 - title: The Earthsea Cycle
   author: Ursula K Le Guin
   date_read: '2025-03-13'
-  rating: 5
   review: I have been absolutely loving Ursula Le Guin. A beautiful series of books highlighting the importance of understanding the true nature of things as well as the value and depth of trust associated with expressing your true self to others. All throughout the series, the use of magic is weighed against an equilibrium and consideration of consequences. Its not some infinite power, merely a redirection and distribution of impact that ripples throughout the fabric of the planet. The Wizard of Earthsea explores the corruption of self due to ego and insecurities. The Tombs of Atuan highlights the power of control through information inequality and the power of forgiveness to oneself as the final hurdle to growth. The Farthest Shore attacks the nature of humanity, with greed and consumerism destroying the very foundations of the world and the magic that supports it. For a book written in the 70s, there are so many aspects of this critic on society that I see rampant today, driven by the tech industry and its corruption of individuals time.
   ideas:
   - Ego
   - Consumerism
   genre:
   - Fantasy
+  rating: 5
 - title: The Dispossessed
   author: Ursula K Le Guin
   date_read: '2025-02-01'
-  rating: 5
   review: Really really enjoyed this book, quite aligned with my current echo chamber of excessive capitalism and consumerism is bad. Provides an interesting comparison between a society where people are ruled by explicit power and possession of wealth and a society where control is achieved via conformity of opinion and the collective betterment of the cohort. Overcoming both of requires the individuals to ensure that they are able to hold freedom of thought.
   ideas:
   - Politics
   - Socialism
   genre:
   - Sci-Fi
+  rating: 5
 - title: Where the Deer and Antelope Play
   author: Nick Offerman
   date_read: '2025-02-01'
-  rating: 2
   review: Provided some interesting points into sustainability and the importance of human connection to one another and to all life on the planet. Ended up being highly political, and even though I agreed with these arguments and am on the same side, they were very accusatory rather than constructive. Not the content I was expecting.
   ideas:
   - Politics
@@ -115,12 +120,13 @@
   - Sustainability
   genre:
   - Non-Fiction
+  rating: 2
 - title: Mans Search for Meaning
   author: Victor E. Frankl
   date_read: '2025-01-10'
-  rating: 4
   review: 'A testament to the ability for humans to endure as well as humanities ability to perform atrocities.
 
     > hope is literally the prerequisite for action'
   ideas: []
   genre: []
+  rating: 4

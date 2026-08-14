@@ -41,11 +41,12 @@ class BookReviewParser:
             'title': title,
             'author': frontmatter.get('author', ''),
             'date_read': date_read,
-            'rating': frontmatter.get('rating', 0),
             'review': review,
             'ideas': frontmatter.get('ideas', []),
             'genre': frontmatter.get('genre', [])
         }
+        if frontmatter.get('rating'):
+            book_info['rating'] = frontmatter['rating']
 
         return book_info
 
