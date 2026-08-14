@@ -17,6 +17,9 @@ _site
 # node things
 node_modules
 
+# python things
+.venv
+
 ## VIM
 # Swap
 [._]*.s[a-v][a-z]
@@ -32,4 +35,7 @@ Sessionx.vim
 
 # macos bullshit
 **/.DS_Store
+
+# Claude things
+.playwright-mcp/
 

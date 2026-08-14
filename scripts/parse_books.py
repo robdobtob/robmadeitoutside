@@ -51,7 +51,7 @@ class BookReviewParser:
 
     def find_book_reviews(self):
         """Find all book review files in the Books/Reviews directory."""
-        reviews_path = self.vault_path / 'Books' / 'Reviews'
+        reviews_path = self.vault_path / 'Reading' / 'Book Reviews'
         if not reviews_path.exists():
             return []
         return list(reviews_path.glob('**/*.md'))
@@ -59,7 +59,9 @@ class BookReviewParser:
     def generate_yaml(self, output_path):
         """Generate YAML file from book reviews."""
         book_files = self.find_book_reviews()
-        
+        if not book_files:
+            raise RuntimeError(f"No book reviews found under {self.vault_path}, refusing to overwrite {output_path}")
+
         for file_path in book_files:
             try:
                 book_info = self.parse_book_review(file_path)
