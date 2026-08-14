@@ -3,6 +3,12 @@
       size: A4;
    }
 
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      color-adjust: exact;
+   }
+
    body {
       padding: 0 !important;
       font-size: 11pt;
@@ -20,7 +26,7 @@
 
    .main-wrapper {
       -webkit-print-color-adjust: exact;
-      padding: 30px;
+      padding: 10px 30px 30px 30px;
    }
 
    .wrapper {
@@ -43,6 +49,24 @@
 
       .education-container {
          max-width: 50%;
+      }
+
+      .contact-container {
+         width: fit-content;
+         margin: auto;
+      }
+
+      .resume-contact-list {
+         display: grid;
+         grid-template-columns: repeat(2, auto);
+         width: fit-content;
+         margin: 0 auto;
+         column-gap: 1.5rem;
+         row-gap: .3rem;
+
+         li {
+            margin-bottom: 0;
+         }
       }
    }
 

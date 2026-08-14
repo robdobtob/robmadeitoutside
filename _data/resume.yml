@@ -12,12 +12,12 @@ sidebar:
   # avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: robert.p.robinson@bigpond.com
+  email: robert.robinson@mailbox.org
   phone: "+61488065234"
   # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   # citizenship:
   # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: 
+  linkedin:
     display: Robert Robinson
     id: robert-robinson-8065b7148
   github: robdobtob
@@ -50,80 +50,104 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Climbing
-    - item: Skiing
-    - item: Hiking & Camping
-
+      - item: Climbing
+      - item: Skiing
+      - item: Hiking & Camping & Bike Packing
+      - item: Sewing
 
 career-profile:
   title: Career Profile
   summary: |
-    I'm a force multiplier, leveraging my time to guide technical roadmaps as well as mentor team members to promote their growth and realise their potential.
-    While I initially focused on my individual contribution to software, my natural tendency to help people and optimise processes resulted in my role shifting quickly to prioritise these aspects which significantly increased my impact.
+    I'm a force multiplier, leveraging my time to guide technical roadmaps, implement solutions to enable scaling of product and organisations as well as mentor team members to promote their growth and realise their potential.
     My skill set enables me to execute on solving difficult and complex problems; starting out with initial research on the problem space, solution ideation, its implementation, the distribution process and then its subsequent iteration based on data driven decisions, enabled through effective monitoring.
-    This impulse to help people has shifted my purpose in life to uplift those who are in poverty due to inequalities outside of their control.
-    As someone who lives on this planet I also cannot stand by without applying my strengths to help fight climate change driven which I believe is driven by the same unsustainable actions and greed that promotes the worlds growing inequality.
 
 education:
   title: Education
   info:
-  - degree:
-      - Bachelor of Engineering (Mechatronic Space) / Bachelor of Science (Physics)
-    university: University of Sydney
-    time: 2018
-    result: Honours First Class
+    - degree:
+        - Bachelor of Engineering (Mechatronic Space) / Bachelor of Science (Physics)
+      university: University of Sydney
+      time: 2018
+      result: Honours First Class
 
 experiences:
   title: Experiences
   info:
-  - company: Constantinople
-    details: |
-      Constantinople is a FinTech start-up that received AUD$32mil in seed round funding, the largest seed in Australian history (2022).
-      Its employee base grew from 40 to 120 during my time and received another AUD$50mil in series A.
-    roles:
-      - title: Senior Staff Engineer
-        time: Jul 2023 - Dec 2024
-        details: |
-          - My role was to provide guidance and support on all technical decisions.
-          I acted as the link between the developers, head of engineering and founders to propose solutions for the long term efficiency of the business and obtain resource allocation to achieve these.
-          - Enabled the successful delivery and continued management of 4 client environments by building our platform configuration service.
-          This required significant research into our security and data isolation strategies that were then presented to internal, client and regulatory stakeholders for approval.
-          - Drove a shift in product release frequency from quarterly to fortnightly while reducing the occurrence of release blockers.
-          This was achieved by pioneering a cultural shift in our software delivery process and implementing tooling to enable it.
-          - Managed the security audit processes and executed the remediation of findings as well as handling client success for critical security flows including customer sign-up, login and account recovery through discussion with their Chief Information Security Officer.
-          - Enhanced the backend testing process by developing data injection tooling that supported unit, integration and end-to-end test functionality.
-          Trend/outcome of bugs, was then leveraged for the development of user acceptance testing to automate regression testing with greater confidence.
-          - Heavily involved in security audit processes, managing and executing the remediation of findings as well as handling client success for critical security flows including customer sign-up, login and account recovery through discussion with their Chief Information Security Officer.
+    - company: Better Season Project
+      details: |
+        Better Season Project enables access to affordable finance so smallholder farmers can invest in proven, productive assets that increase their incomes and build long-term resilience. We are a Ambitious Impact incubated charity.
+      roles:
+        - title: Monitoring and Evaluation Lead
+          time: Oct 2025 - Current (Part-time)
+          details: |
+            - Responsible for driving monitoring and evaluation across the theory of change and our operations.
+            - Portfolio analysis platform for SACCOs to provide insight into loan product performance, regulatory compliance and marketing opportunities within their member base.
 
-      - title: Staff Engineer
-        time: Feb 2023 - Jul 2023
-        details: |
-          - Enabled the acquisition of 1000+ small business bank customers onto the platform by delivering a server-less backend for the onboarding pipeline that had to meet APRA and AUSTRAC compliance requirements.
-  
-  - company: Accenture
-    roles: 
-      - title: Advanced App Engineering Manager
-        time: August 2018 - September 2022
-        details: |
-          - Promoted 3 times from specialist to manager.
-          - Lead product direction and backend development of a enterprise automation delivery platform redesign which has been deployed at 100+ clients.
-          Focussed on addressing issues with end user complexity of the product in order to improve the scalability of the product delivery.
-          - Shifted product release cadence from quarterly to monthly by improving CI/CD and overall development processes to scale application delivery.
-          - Mentored and performance managed 10 developers, all receiving promotions at one point.
-          - Scoped, developed and lead an automation monitoring platform to provide direct feedback to clients on the return of investment from our asset suite.
-          Pioneered a shift to an agile delivery process as part of this.
-          - Involved in client engagement and delivery of the same automation delivery platform to both internal and external client teams. 
+    - company: Walker St data
+      roles:
+        - title: Staff Software Engineer
+          time: Oct 2025 - Current (Part-time)
+          details: |
+            - Part of the founding team to provide business risk assessments for lenders.
+            - Drove key infrastructure and engineering decisions to deliver MVP and subsequent scale out to multi tenant B2B2C platform.
+            - Built initial banking data enrichment processing pipeline from existing standalone machine learning models.
 
-  - company: NDYLTK
-    hidden: true
-    roles: 
-      - time: Nov 2016 - Apr 2017
-        title: Rail Systems Engineer
-        details: |
-          - Initially started out as a 3 month summer internship at a rail consultancy engineering firm where I was offered a more permanent part time role during University.
-          - Involved in system modelling, simulation and analysis of client's rail network to investigate validity of network upgrades based on current electrical infrastructure.
-          This was achieved using proprietary software as well VBA macros developed for modelling automation and data analysis that required reverse engineering database structures.
+    - company: Clear Solutions
+      roles:
+        - title: Software Engineer
+          time: July 2025 - Current (Part-time)
+          details: |
+            - Built an offline data collection platform utilised to improve operational visibility of Clear Solutions' ORSz distribution channels. 
+            - Analytics and Evaluation platform to highlight operational status for data collection, inventory levels with stockout prediction and impact reporting on copacks distributed across programs. The foundation of this system has enabled internal development of additional dashboards to improve visibility into operations and allow self service to data.
 
+    - company: Constantinople
+      details: |
+        Constantinople is a FinTech start-up that received AUD$32mil in seed round funding, the largest seed in Australian history (2022).
+        Its employee base grew from 40 to 120 during my time and received another AUD$50mil in series A.
+      roles:
+        - title: Senior Staff Engineer
+          time: Jul 2023 - Dec 2024
+          details: |
+            - My role was to provide guidance and support on all technical decisions.
+            I acted as the link between the developers, head of engineering and founders to propose solutions for the long term efficiency of the business and obtain resource allocation to achieve these.
+            - Enabled the successful delivery and continued management of 4 client environments.
+            This required significant research into our security and data isolation strategies that were then presented to internal, client and regulatory stakeholders for approval.
+            - Drove a shift in product release frequency from quarterly to fortnightly while reducing the occurrence of release blockers.
+            This was achieved by pioneering a cultural shift in our software delivery process and implementing tooling to enable it such as an improved testing harness and automation of user acceptance testing.
+            - Managed the security audit processes and executed the remediation of findings as well as handling client success for critical security flows including customer sign-up, login and account recovery through discussion with their Chief Information Security Officer.
+
+        - title: Staff Engineer
+          time: Feb 2023 - Jul 2023
+          details: |
+            - Enabled the acquisition of 1000+ small business bank customers onto the platform by delivering a server-less backend for the onboarding pipeline that had to meet APRA and AUSTRAC compliance requirements.
+
+    - company: Accenture
+      roles:
+        - title: Advanced App Engineering Manager
+          time: August 2018 - September 2022
+          details: |
+            - Promoted 3 times from specialist to manager.
+            - Lead product direction and backend development of a enterprise automation delivery platform redesign which has been deployed at 100+ clients.
+            Focussed on addressing issues with end user complexity of the product in order to improve the scalability of the product delivery.
+            - Shifted product release cadence from quarterly to monthly by improving CI/CD and overall development processes to scale application delivery.
+            - Mentored and performance managed 10 developers, all receiving promotions at one point.
+            - Scoped, developed and lead an automation monitoring platform to provide direct feedback to clients on the return of investment from our asset suite.
+            Pioneered a shift to an agile delivery process as part of this.
+            - Involved in client engagement and delivery of the same automation delivery platform to both internal and external client teams.
+
+    - company: NDYLTK
+      roles:
+        - time: Nov 2016 - Apr 2017
+          title: Rail Systems Engineer
+
+    - company: NDYLTK
+      hidden: true
+      roles:
+        - time: Nov 2016 - Apr 2017
+          title: Rail Systems Engineer
+          details: |
+            - Initially started out as a 3 month summer internship at a rail consultancy engineering firm where I was offered a more permanent part time role during University.
+            - Involved in system modelling, simulation and analysis of client's rail network to investigate validity of network upgrades based on current electrical infrastructure.
 
 ## TODO: Move this to the sidebar (resume-certifications)
 # certifications:
@@ -135,9 +159,17 @@ experiences:
 achievements:
   title: Projects
   info:
+    - title: Vida Plena
+      subtitle: Volunteer project with Ambitious Impact charity.
+      time: Jul 2025
+      details: |
+        - Built survey reminders to increase the response rate of 3 and 6 month follow up surveys and reduce manual effort involved to achieve this.
+        - Automated meeting scheduling and reminder notifications for baseline and group therapy session initiation procedures, reducing costly no-shows.
+        - Automated digitisation of the per-session PHQ-9 mental health questionnaires to reduce facilitator overhead.
+
     - title: Pollinate Group
       subtitle: Co-Creator and Engineer of Last Mile Distribution App
-      time: 2021 - Current 
+      time: 2021 - 2025
       details: |
         - Engaged with the Pollinate Group to develop a new customer sales management interface for the marginalised women they empower as entrepreneurs. Their impact space covers health, environmental and gender equality where they leverage microfinance and the gossip model to scale their reach and effectiveness.
         - The project has 200 monthly active users, accounts for 36% of all stock requests and has improved process efficiency for distribution and support by 10x for their users.
@@ -157,11 +189,11 @@ achievements:
       time: 2018
       details: |
         My honours thesis, completed as my industry scholarship at Accenture, investigated the ability to improve robotic control systems through bio-mimicry.  This utilised existing Generative Adversarial Networks and Reinforcement Learning techniques to produce a control system for a quadruped.
-    
+
     - title: Accenture Bootcamp
       time: 2017
       hidden: true
-      details: | 
+      details: |
         Generated a proof of concept and presented this to an Accenture client with a group of University students.  Over the course of one week helped develop a database server backend and SPLUNK front end to meet the specifications of the client.  The  backend was self populating through the use of Google Maps and image recognition API's as well as HTML scripts to extract data from existing online databases.
 
     - title: RTSA NSW Undergraduate Challenge Winner
@@ -192,4 +224,3 @@ achievements:
 
 footer: |
   Based on cv template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
-  
